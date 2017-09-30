@@ -22,13 +22,15 @@ public class Main {
 
         }
 
+
+
+        int j = 0;
+        for(i = b; i > 0; i--){
+            c[i] = c[j];
+            j++;
+        }
         for (i = 0; i < b; i++) {
             System.out.println(c[i]);
-            }
-
-        int d = b;
-        for(i = 0; i < b; i++){
-            
         }
 
         }
