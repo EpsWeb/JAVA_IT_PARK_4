@@ -1,10 +1,15 @@
-package ru.itpark;
+package com.company;
 
 public class Auto {
     private int number;
     private int power;
-    public String color;
-    Auto audi = new Auto();
+    private String color;
+
+    public Auto(int number, int power, String color) {
+        setNumber(number);
+        setPower(power);
+        setColor(color);
+    }
 
     void setNumber(int number) {
         this.number = number;
@@ -26,7 +31,7 @@ public class Auto {
         this.color = color;
     }
 
-    int getColor() {
+    String getColor() {
         return color;
     }
 
