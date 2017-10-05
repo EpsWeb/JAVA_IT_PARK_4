@@ -127,9 +127,9 @@ public class Main {
                                         "12.Показать меню\n" +
                                         "-----------------------------------------------------\n");
                                 break;
-                            default:
-                                System.out.println("Комманда неверна");
-                                break;
+                                default:
+                                    System.out.println("Комманда неверна");
+                                    break;
                         }
 
                     }
@@ -144,9 +144,9 @@ public class Main {
                         lists[numberOfArray] = null;
                     }
                     break;
-                default:
-                    System.out.println("Комманда неверна");
-                    break;
+                    default:
+                        System.out.println("Комманда неверна");
+                        break;
                 case 5:
                     System.exit(0);
             }
