@@ -11,8 +11,8 @@ public class Main {
         figures[3] = new Triangle(3, 4, 5);
         figures[4] = new Parallelogram(6, 7, 30);
 
-        for (Figure f : figures) {
-            System.out.println(f.area());
+        for (int i = 0; i < figures.length; i++) {
+            System.out.println(figures[i].area());
         }
     }
 }
